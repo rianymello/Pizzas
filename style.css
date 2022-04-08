@@ -187,7 +187,7 @@ h1 {
 }
 .pizzaInfo--size {
     padding:10px 15px;
-    color:rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
     background-color:#EEE;
     font-size:13px;
     font-weight: bold;
@@ -197,11 +197,11 @@ h1 {
     background-color:#CCC;
 }
 .pizzaInfo--size.selected {
-    background-color:#399ade;
-    color:#FFF;
+    background-color:#ff0000;
+    color:rgb(0, 0, 0);
 }
 .pizzaInfo--size.selected span {
-    color:#D6D6D6;
+    color:#000000;
 }
 .pizzaInfo--size span {
     font-size:12px;
@@ -211,6 +211,7 @@ h1 {
 .pizzaInfo--price {
     display:flex;
     align-items:center;
+    color:white;
 }
 .pizzaInfo--actualPrice {
     font-size:28px;
